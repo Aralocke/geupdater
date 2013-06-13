@@ -1,5 +1,5 @@
-geupdater
-=========
+GE Update Detector & Item Data Tracker
+======================================
 
 A daemon application coded in PHP. Based off an open source daemon handler, it will parse the RuneScape grand Exchange 
 and maintain a MySQL database cache of all item data as well as build a per-update item data tracker.
@@ -52,4 +52,10 @@ Run the file via the command line
 --manual-update - Force an update.
 --help          - Self-Explanatory.
 
-
+Basic requirements
+- PHP 5.x
+-- PHP MySQL(i) functionality
+- MySQL Database
+-- Tested against 5.5.x but should work anywhere that supports InnoDB
+- *Unix System
+-- Designed and tested on CentOS 6.x

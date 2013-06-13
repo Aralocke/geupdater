@@ -46,11 +46,11 @@ Run the file via the command line
 /usr/bin/php /path/to/ge.php
 
 (Optional) Command-Line Options
---no-daemon     - Run without daemonizing. Enhanced debug output will print to the console.
---full-grab     - Download everything from the GE. Useful for the first run through to build the cache.
---categories    - Download only the categories index, and not the item data.
---manual-update - Force an update.
---help          - Self-Explanatory.
+- --no-daemon     - Run without daemonizing. Enhanced debug output will print to the console.
+- --full-grab     - Download everything from the GE. Useful for the first run through to build the cache.
+- --categories    - Download only the categories index, and not the item data.
+- --manual-update - Force an update.
+- --help          - Self-Explanatory.
 
 Basic requirements
 - PHP 5.x
